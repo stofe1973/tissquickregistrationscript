@@ -104,7 +104,7 @@ SOFTWARE.
         registrationType: "group",
 
         // name of you the group you want to join (only for registrationType 'group') [String]
-        nameOfGroup: "Gruppe 001",
+        nameOfGroup: "S5 -Die Anmeldebestätigung wird nach Ablauf der Anmeldefrist per E-Mail gesendet.",
 
         // name of the exam which you want to join (only for registrationType 'exam') [String]
         nameOfExam: "Name Of Exam",
@@ -116,7 +116,7 @@ SOFTWARE.
         lvaCheckEnabled: true,
 
         // only if the number is right, the script is enabled [String]
-        lvaNumber: "123.456",
+        lvaNumber: "311.108",
 
         // if you have multiple study codes, enter here the study code number you want
         // to register for eg. '123456' (no blanks). Otherwise leave empty. [String]
@@ -128,7 +128,7 @@ SOFTWARE.
         lvaSemesterCheckEnabled: true,
 
         // only if the semester is right, the script is enabled [String]
-        lvaSemester: "2019W",
+        lvaSemester: "2026S",
 
         // autoGoToSemester: true,   // coming soon
 
@@ -152,7 +152,7 @@ SOFTWARE.
         // until you are registered and with this parameter you can define a "cycle delay" at the end.
         // This could happen, if (for some reason) you are not on the whitelist for this course.
         // [Integer]
-        okPressAtEndDelayInMs: 1000,
+        okPressAtEndDelayInMs: 6,
 
         // let the script start at a specific time [true,false]
         startAtSpecificTime: true,
@@ -160,10 +160,10 @@ SOFTWARE.
         // define the specific time the script should start [Date]
         // new Date(year, month, day, hours, minutes, seconds, milliseconds)
         // note: months start with 0
-        specificStartTime: new Date(2020, 1 - 1, 9, 20, 27, 0, 0),
+        specificStartTime: new Date(2026, 4, 18, 8, 0, 0, 0),
 
         // if a specific time is defined, the script will refresh some ms sooner to adjust a delay [Integer]
-        delayAdjustmentInMs: 300,
+        delayAdjustmentInMs: 10000,
 
         // show log output of the script on screen [true,false]
         showLog: true
