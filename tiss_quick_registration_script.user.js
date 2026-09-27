@@ -104,7 +104,7 @@ SOFTWARE.
         registrationType: "group",
 
         // name of you the group you want to join (only for registrationType 'group') [String]
-        nameOfGroup: "Block: Mathematik 3 Übungsgruppen",
+        nameOfGroup: "Dienstag 16-18 Uhr",
 
         // name of the exam which you want to join (only for registrationType 'exam') [String]
         nameOfExam: "Name Of Exam",
